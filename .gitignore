@@ -1,0 +1,22 @@
+.env
+env/
+*.bak*
+*sandbox*.*
+*sandbox*
+sandbox/
+helper_functions.py
+app_qabot.py
+DeepCode.png
+*.bak/
+*.bak
+#empty folders
+#exclude everything inside
+models/*
+#dataset/*
+
+#but include
+!models/.gitkeep
+!dataset/.gitkeep
+
+
+#

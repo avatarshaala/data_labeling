@@ -1,0 +1,448 @@
+{
+    "original_file_name": "ai_GradeScores.java",
+    "json_file_name": "dipesh.14-03-2024.ai_GradeScores.json",
+    "user": "dipesh",
+    "date": "14-03-2024",
+    "other_info": "",
+    "lines": {
+        "1": {
+            "content": "/**\r",
+            "type": "begin_header"
+        },
+        "2": {
+            "content": " * author: Dipesh Gautam\r",
+            "type": "header_comment"
+        },
+        "3": {
+            "content": " * topic: Arrays\r",
+            "type": "header_comment"
+        },
+        "4": {
+            "content": " * subTopic: processing arrays\r",
+            "type": "header_comment"
+        },
+        "5": {
+            "content": " * goalDescription: This program calculates the highest and lowest grade scores among 10 student grade scores. Once found, it displays the highest and lowest grade scores.\r",
+            "type": "header_comment"
+        },
+        "6": {
+            "content": " * source: Here we keep the URL if there exist any source \r",
+            "type": "header_comment"
+        },
+        "7": {
+            "content": " * output: \r",
+            "type": "header_comment"
+        },
+        "8": {
+            "content": " * Highest score is 90\r",
+            "type": "header_comment"
+        },
+        "9": {
+            "content": " * The lowest score is:4\r",
+            "type": "header_comment"
+        },
+        "10": {
+            "content": "*/\r",
+            "type": "end_header"
+        },
+        "11": {
+            "content": "public class GradeScores {{\r",
+            "type": "code_body"
+        },
+        "12": {
+            "content": "    public static void main(String[] args) {{\r",
+            "type": "code_body"
+        },
+        "13": {
+            "content": "    \r",
+            "type": ""
+        },
+        "14": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "15": {
+            "content": "         * logical_step_1: Declare an array to store the grade scores of 10 students.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "16": {
+            "content": "         * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 0
+            }
+        },
+        "17": {
+            "content": "         * question_2: What is the size of the array?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "18": {
+            "content": "         * question_3: What are the possible values of scores array?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 0
+            }
+        },
+        "19": {
+            "content": "         * gap_fill_question_1: The size of the array is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "20": {
+            "content": "         * gap_fill_question_2: The data type of scores array is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "21": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "22": {
+            "content": "        int[] scores= {{10,19,12,14,90,4,5,20,14,15}};\r",
+            "type": "code_body"
+        },
+        "23": {
+            "content": "       \r",
+            "type": ""
+        },
+        "24": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "25": {
+            "content": "         * logical_step_2: Initialize the variables max and min with the first element of the scores array.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "26": {
+            "content": "         * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 0
+            }
+        },
+        "27": {
+            "content": "         * question_2: What is the value of max and min after this block?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "28": {
+            "content": "         * gap_fill_question_1: The value of max is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "29": {
+            "content": "         * gap_fill_question_2: The value of min is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 0
+            }
+        },
+        "30": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "31": {
+            "content": "        int max=scores[0];       \r",
+            "type": "code_body"
+        },
+        "32": {
+            "content": "        int min=scores[0];\r",
+            "type": "code_body"
+        },
+        "33": {
+            "content": "    \r",
+            "type": ""
+        },
+        "34": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 0
+            }
+        },
+        "35": {
+            "content": "         * logical_step_3: Find the maximum score among the scores array.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "36": {
+            "content": "         * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "37": {
+            "content": "         * question_2: How many times the loop run?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 0
+            }
+        },
+        "38": {
+            "content": "         * question_3: What is the value of i when the loop ends?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "39": {
+            "content": "         * gap_fill_question_1: The starting value of i in the loop is ___ and final value is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "40": {
+            "content": "         * question_4: What is the purpose of if statement inside the loop?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "41": {
+            "content": "         * hint_1: The if statement checks if the current score is greater than the current maximum score.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "42": {
+            "content": "         * statement_comment: If the current score is greater than the current maximum score, the maximum score is updated.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "43": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "44": {
+            "content": "         for (int i = 0; i < scores.length; i++) {{\r",
+            "type": "code_body"
+        },
+        "45": {
+            "content": "            if (scores[i]> max) {{\r",
+            "type": "code_body"
+        },
+        "46": {
+            "content": "               max=scores[i];\r",
+            "type": "code_body"
+        },
+        "47": {
+            "content": "            }}\r",
+            "type": "code_body"
+        },
+        "48": {
+            "content": "        }}\r",
+            "type": "code_body"
+        },
+        "49": {
+            "content": "     \r",
+            "type": ""
+        },
+        "50": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "51": {
+            "content": "         * logical_step_4: Find the minimum score among the scores array.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 0
+            }
+        },
+        "52": {
+            "content": "         * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "53": {
+            "content": "         * question_2: How many times the loop run?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "54": {
+            "content": "         * question_3: What is the value of i when the loop ends?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "55": {
+            "content": "         * gap_fill_question_1: The starting value of i in the loop is ___ and final value is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 0
+            }
+        },
+        "56": {
+            "content": "         * question_4: What is the purpose of if statement inside the loop?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "57": {
+            "content": "         * hint_1: The if statement checks if the current score is less than the current minimum score.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 0
+            }
+        },
+        "58": {
+            "content": "         * statement_comment: If the current score is less than the current minimum score, the minimum score is updated.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "59": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "60": {
+            "content": "        for (int i = 0; i < scores.length; i++) {{\r",
+            "type": "code_body"
+        },
+        "61": {
+            "content": "            if (scores[i]< min)  {{\r",
+            "type": "code_body"
+        },
+        "62": {
+            "content": "                  min=scores[i];\r",
+            "type": "code_body"
+        },
+        "63": {
+            "content": "            }}\r",
+            "type": "code_body"
+        },
+        "64": {
+            "content": "        }}\r",
+            "type": "code_body"
+        },
+        "65": {
+            "content": "    \r",
+            "type": ""
+        },
+        "66": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "67": {
+            "content": "         * logical_step_5: Print the highest and lowest scores.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "68": {
+            "content": "         * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "69": {
+            "content": "         * question_2: What are the values printed?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 0
+            }
+        },
+        "70": {
+            "content": "         * followup_question_1: What will be the output if the scores array is {90, 80, 70, 60, 50, 40, 30, 20, 10, 0}?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "71": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "72": {
+            "content": "        System.out.println(\"Highest score is \" + max+ \"\\nThe lowest score is:\"+min);\r",
+            "type": "code_body"
+        },
+        "73": {
+            "content": "    }}\r",
+            "type": "code_body"
+        },
+        "74": {
+            "content": "\r",
+            "type": ""
+        },
+        "75": {
+            "content": "}}",
+            "type": "code_body"
+        }
+    }
+}
