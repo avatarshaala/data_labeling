@@ -1,0 +1,278 @@
+{
+    "original_file_name": "ai_BasketCount.java",
+    "json_file_name": "user2.06-04-2024.ai_BasketCount.json",
+    "user": "user2",
+    "date": "06-04-2024",
+    "other_info": "",
+    "lines": {
+        "1": {
+            "content": "/**\r",
+            "type": "begin_header"
+        },
+        "2": {
+            "content": " * author: Dipesh Gautam\r",
+            "type": "header_comment"
+        },
+        "3": {
+            "content": " * topics: Arrays, For Loops\r",
+            "type": "header_comment"
+        },
+        "4": {
+            "content": " * subtopics: iterating over array elements, calculating sum of array elements\r",
+            "type": "header_comment"
+        },
+        "5": {
+            "content": " * goalDescription: This program calculates the sum of elements in an array.\r",
+            "type": "header_comment"
+        },
+        "6": {
+            "content": " * input: [3, 1, 2, 5, 4]\r",
+            "type": "header_comment"
+        },
+        "7": {
+            "content": " * output: sum of array values : 15\r",
+            "type": "header_comment"
+        },
+        "8": {
+            "content": " */\r",
+            "type": "end_header"
+        },
+        "9": {
+            "content": "\r",
+            "type": ""
+        },
+        "10": {
+            "content": "public class BasketCount {{\r",
+            "type": "code_body"
+        },
+        "11": {
+            "content": "   \r",
+            "type": ""
+        },
+        "12": {
+            "content": "    public static void main(String args[])  {{\r",
+            "type": "code_body"
+        },
+        "13": {
+            "content": "       \r",
+            "type": ""
+        },
+        "14": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "15": {
+            "content": "         * logical_step_1: Declare and initialize an array with values.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "16": {
+            "content": "         * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "17": {
+            "content": "         * question_2: What is the size of the array?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "18": {
+            "content": "         * question_3: What are the values stored in the array?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "19": {
+            "content": "         * gap_fill_question_1: The size of the array is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "20": {
+            "content": "         * gap_fill_question_2: The values stored in the array are ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "21": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "22": {
+            "content": "        int arr[] = {{3, 1, 2, 5, 4}};\r",
+            "type": "code_body"
+        },
+        "23": {
+            "content": "      \r",
+            "type": ""
+        },
+        "24": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "25": {
+            "content": "         * logical_step_2: Calculate the sum of all the elements in the array.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "26": {
+            "content": "         * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "27": {
+            "content": "         * question_2: How many times the loop run?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "28": {
+            "content": "         * question_3: What is the initial value of sum?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "29": {
+            "content": "         * question_4: What is the value of sum after the loop completes?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "30": {
+            "content": "         * gap_fill_question_1: The initial value of sum is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "31": {
+            "content": "         * gap_fill_question_2: The final value of sum is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "32": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "33": {
+            "content": "        int sum=0;\r",
+            "type": "code_body"
+        },
+        "34": {
+            "content": "        for (int i = 0; i < arr.length; i++) {{\r",
+            "type": "code_body"
+        },
+        "35": {
+            "content": "           sum+=arr[i]; \r",
+            "type": "code_body"
+        },
+        "36": {
+            "content": "        }}\r",
+            "type": "code_body"
+        },
+        "37": {
+            "content": "        \r",
+            "type": ""
+        },
+        "38": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "39": {
+            "content": "         * logical_step_3: Print the sum of the array values.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "40": {
+            "content": "         * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "41": {
+            "content": "         * question_2: What is the output of the program?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "42": {
+            "content": "         * gap_fill_question_1: The output of the program is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "43": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "44": {
+            "content": "        System.out.println(\"sum of array values : \" + sum); \r",
+            "type": "code_body"
+        },
+        "45": {
+            "content": "      \r",
+            "type": ""
+        },
+        "46": {
+            "content": "    }} \r",
+            "type": "code_body"
+        },
+        "47": {
+            "content": "    \r",
+            "type": ""
+        },
+        "48": {
+            "content": "}}",
+            "type": "code_body"
+        }
+    }
+}

@@ -1,0 +1,359 @@
+{
+    "original_file_name": "ai_CityStats.java",
+    "json_file_name": "user1.04-04-2024.ai_CityStats.json",
+    "user": "user1",
+    "date": "04-04-2024",
+    "other_info": "",
+    "lines": {
+        "1": {
+            "content": "/**\r",
+            "type": "begin_header"
+        },
+        "2": {
+            "content": " * author: Dipesh Gautam\r",
+            "type": "header_comment"
+        },
+        "3": {
+            "content": " * topics: Variables, Data Types\r",
+            "type": "header_comment"
+        },
+        "4": {
+            "content": " * subtopics: declaring and initializing variables, printing variables\r",
+            "type": "header_comment"
+        },
+        "5": {
+            "content": " * goalDescription: This program displays Casablanca's statistics.\r",
+            "type": "header_comment"
+        },
+        "6": {
+            "content": " * output:\r",
+            "type": "header_comment"
+        },
+        "7": {
+            "content": "    Morocco\r",
+            "type": "header_comment"
+        },
+        "8": {
+            "content": "    Casblanca-Settat\r",
+            "type": "header_comment"
+        },
+        "9": {
+            "content": "    3,359,818\r",
+            "type": "header_comment"
+        },
+        "10": {
+            "content": "    20000\r",
+            "type": "header_comment"
+        },
+        "11": {
+            "content": "    Omari\r",
+            "type": "header_comment"
+        },
+        "12": {
+            "content": "    false\r",
+            "type": "header_comment"
+        },
+        "13": {
+            "content": "*/\r",
+            "type": "end_header"
+        },
+        "14": {
+            "content": "\r",
+            "type": ""
+        },
+        "15": {
+            "content": "public class CityStats {{\r",
+            "type": "code_body"
+        },
+        "16": {
+            "content": "    public static void main(String[] args) {{    \r",
+            "type": "code_body"
+        },
+        "17": {
+            "content": "\r",
+            "type": ""
+        },
+        "18": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "19": {
+            "content": "         * logical_step_1: Declare and initialize variables to store Casablanca's statistics\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "20": {
+            "content": "         * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "21": {
+            "content": "         * question_2: What is the purpose of variable country?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "22": {
+            "content": "         * question_3: What is the value of variable country?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "23": {
+            "content": "         * gap_fill_question_1: The value of variable country is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "24": {
+            "content": "         * question_4: What is the data type of variable region?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "25": {
+            "content": "         * question_5: What is the value of variable region?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "26": {
+            "content": "         * gap_fill_question_2: The value of variable region is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "27": {
+            "content": "         * question_6: What is the data type of variable population?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "28": {
+            "content": "         * question_7: What is the value of variable population?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "29": {
+            "content": "         * gap_fill_question_3: The value of variable population is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "30": {
+            "content": "         * question_8: What is the data type of variable postalCode?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "31": {
+            "content": "         * question_9: What is the value of variable postalCode?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "32": {
+            "content": "         * gap_fill_question_4: The value of variable postalCode is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "33": {
+            "content": "         * question_10: What is the data type of variable mayor?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "34": {
+            "content": "         * question_11: What is the value of variable mayor?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "35": {
+            "content": "         * gap_fill_question_5: The value of variable mayor is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "36": {
+            "content": "         * question_12: What is the data type of variable isCapitalOfMorocco?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "37": {
+            "content": "         * question_13: What is the value of variable isCapitalOfMorocco?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "38": {
+            "content": "         * gap_fill_question_6: The value of variable isCapitalOfMorocco is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "39": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "40": {
+            "content": "        String country = \"Morocco\";        \r",
+            "type": "code_body"
+        },
+        "41": {
+            "content": "        String region = \"Casablanca-Settat\";       \r",
+            "type": "code_body"
+        },
+        "42": {
+            "content": "        int population = 3359818;        \r",
+            "type": "code_body"
+        },
+        "43": {
+            "content": "        double postalCode = 20000;        \r",
+            "type": "code_body"
+        },
+        "44": {
+            "content": "        String mayor = \"Omari\";       \r",
+            "type": "code_body"
+        },
+        "45": {
+            "content": "        boolean isCapitalOfMorocco = false;\r",
+            "type": "code_body"
+        },
+        "46": {
+            "content": "\r",
+            "type": ""
+        },
+        "47": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "48": {
+            "content": "         * logical_step_2: Print the values of the variables\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "49": {
+            "content": "         * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "50": {
+            "content": "         * question_2: What are the values printed?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "51": {
+            "content": "         * followup_question_1: What is the output if the value of population is 5000000?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "52": {
+            "content": "         * statement_comment: The values of the variables are printed using System.out.println() method.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "53": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "54": {
+            "content": "        System.out.println(\"Country is:\" + country);\r",
+            "type": "code_body"
+        },
+        "55": {
+            "content": "        System.out.println(\"Regision \" + region);\r",
+            "type": "code_body"
+        },
+        "56": {
+            "content": "        System.out.println(\"Population is :\" + population);\r",
+            "type": "code_body"
+        },
+        "57": {
+            "content": "        System.out.println(\"PostalCode is : \" + postalCode);\r",
+            "type": "code_body"
+        },
+        "58": {
+            "content": "        System.out.println(\"Mayor of the city is : \" + mayor);\r",
+            "type": "code_body"
+        },
+        "59": {
+            "content": "        System.out.println(\"Is Casablanca the capital of Morocco?\" + isCapitalOfMorocco);\r",
+            "type": "code_body"
+        },
+        "60": {
+            "content": "    }}\r",
+            "type": "code_body"
+        },
+        "61": {
+            "content": "}}",
+            "type": "code_body"
+        }
+    }
+}

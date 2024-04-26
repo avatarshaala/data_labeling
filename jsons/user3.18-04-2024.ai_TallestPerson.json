@@ -1,0 +1,247 @@
+{
+    "original_file_name": "ai_TallestPerson.java",
+    "json_file_name": "user3.18-04-2024.ai_TallestPerson.json",
+    "user": "user3",
+    "date": "18-04-2024",
+    "other_info": "",
+    "lines": {
+        "1": {
+            "content": "/**\r",
+            "type": "begin_header"
+        },
+        "2": {
+            "content": " * author: Dipesh Gautam\r",
+            "type": "header_comment"
+        },
+        "3": {
+            "content": " * topic: Conditional Statements\r",
+            "type": "header_comment"
+        },
+        "4": {
+            "content": " * subTopic: if-else statements\r",
+            "type": "header_comment"
+        },
+        "5": {
+            "content": " * goalDescription: Find the tallest among three individuals whose heights are given.\r",
+            "type": "header_comment"
+        },
+        "6": {
+            "content": " * source: N/A\r",
+            "type": "header_comment"
+        },
+        "7": {
+            "content": " * output: Lisa is the tallest\r",
+            "type": "header_comment"
+        },
+        "8": {
+            "content": "*/\r",
+            "type": "end_header"
+        },
+        "9": {
+            "content": "\r",
+            "type": ""
+        },
+        "10": {
+            "content": "public class TallestPerson{{\r",
+            "type": "code_body"
+        },
+        "11": {
+            "content": "\r",
+            "type": ""
+        },
+        "12": {
+            "content": "\tpublic static void main(String[] args) {{\r",
+            "type": "code_body"
+        },
+        "13": {
+            "content": "\r",
+            "type": ""
+        },
+        "14": {
+            "content": "\t\t/**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "15": {
+            "content": "\t\t * logical_step_1: Declare and initialize variables to store the heights of three individuals\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "16": {
+            "content": "\t\t * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "17": {
+            "content": "\t\t * question_2: What are the values of Mary, Lisa, and Rose?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "18": {
+            "content": "\t\t * gap_fill_question_1: The height of Mary is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "19": {
+            "content": "\t\t * gap_fill_question_2: The height of Lisa is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "20": {
+            "content": "\t\t * gap_fill_question_3: The height of Rose is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "21": {
+            "content": "\t\t * hint_1: The values are given in the code.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "22": {
+            "content": "\t\t */\r",
+            "type": "end_comment"
+        },
+        "23": {
+            "content": "\t\tint Mary = 140, Lisa = 150, Rose = 140;\r",
+            "type": "code_body"
+        },
+        "24": {
+            "content": "\r",
+            "type": ""
+        },
+        "25": {
+            "content": "\t\t/**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "26": {
+            "content": "\t\t * logical_step_2: Compare the heights of the individuals using if-else statements and print the tallest person\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "27": {
+            "content": "\t\t * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "28": {
+            "content": "\t\t * question_2: How many if-else statements are there?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "29": {
+            "content": "\t\t * question_3: What is the purpose of the condition in the if statement?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "30": {
+            "content": "\t\t * hint_1: The condition checks if Mary is taller than Lisa and Rose.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 0
+            }
+        },
+        "31": {
+            "content": "\t\t * question_4: What is the output if Mary is the tallest?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "32": {
+            "content": "\t\t * question_5: What is the output if Lisa is the tallest?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "33": {
+            "content": "\t\t * question_6: What is the output if Rose is the tallest?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "34": {
+            "content": "\t\t */\r",
+            "type": "end_comment"
+        },
+        "35": {
+            "content": "\t\tif( Mary >= Lisa && Mary >= Rose)\r",
+            "type": "code_body"
+        },
+        "36": {
+            "content": "\t\t\tSystem.out.println(\" Mary is the tallest\");\r",
+            "type": "code_body"
+        },
+        "37": {
+            "content": "\r",
+            "type": ""
+        },
+        "38": {
+            "content": "\t\telse if (Lisa >= Mary && Lisa >= Rose)\r",
+            "type": "code_body"
+        },
+        "39": {
+            "content": "\t\t\tSystem.out.println(\"Lisa is the tallest\");\r",
+            "type": "code_body"
+        },
+        "40": {
+            "content": "\t\telse\r",
+            "type": "code_body"
+        },
+        "41": {
+            "content": "\t\t\tSystem.out.println(\"Rose is the tallest\");\r",
+            "type": "code_body"
+        },
+        "42": {
+            "content": "\t}}\r",
+            "type": "code_body"
+        },
+        "43": {
+            "content": "}}",
+            "type": "code_body"
+        }
+    }
+}

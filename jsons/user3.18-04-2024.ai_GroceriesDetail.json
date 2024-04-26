@@ -1,0 +1,183 @@
+{
+    "original_file_name": "ai_GroceriesDetail.java",
+    "json_file_name": "user3.18-04-2024.ai_GroceriesDetail.json",
+    "user": "user3",
+    "date": "18-04-2024",
+    "other_info": "",
+    "lines": {
+        "1": {
+            "content": "/**\r",
+            "type": "begin_header"
+        },
+        "2": {
+            "content": " * author: Dipesh Gautam\r",
+            "type": "header_comment"
+        },
+        "3": {
+            "content": " * topics: Classes and Objects\r",
+            "type": "header_comment"
+        },
+        "4": {
+            "content": " * subtopics: Creating objects, calling static and instance methods\r",
+            "type": "header_comment"
+        },
+        "5": {
+            "content": " * goalDescription: This program calls Groceries static and instance method by creating new object of Groceries\r",
+            "type": "header_comment"
+        },
+        "6": {
+            "content": " * output: There are numerous online sites and third parties you can use where you just need to order and pay for the groceries online and will show up at your door step without needing to head out for it.\r",
+            "type": "header_comment"
+        },
+        "7": {
+            "content": " * The other way around is by your car or a Cab or Uber and oicking up the groceries by yourself or the other easy way is you can schedule a pickup for that. So, the extra thing here is you need to get to the store for the groceries.\r",
+            "type": "header_comment"
+        },
+        "8": {
+            "content": " */\r",
+            "type": "end_header"
+        },
+        "9": {
+            "content": "\r",
+            "type": ""
+        },
+        "10": {
+            "content": "class GroceriesDetail {{\r",
+            "type": "code_body"
+        },
+        "11": {
+            "content": "\r",
+            "type": ""
+        },
+        "12": {
+            "content": "    public static void main(String[] args) {{\r",
+            "type": "code_body"
+        },
+        "13": {
+            "content": "\r",
+            "type": ""
+        },
+        "14": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "15": {
+            "content": "         * logical_step_1: Call the static method onlineGroceries() of the Groceries class.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "16": {
+            "content": "         * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "17": {
+            "content": "         * question_2: What is the purpose of Groceries.onlineGroceries()?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 0
+            }
+        },
+        "18": {
+            "content": "         * statement_comment: The static method onlineGroceries() is called without creating an object of the Groceries class.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "19": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "20": {
+            "content": "        Groceries.onlineGroceries();\r",
+            "type": "code_body"
+        },
+        "21": {
+            "content": "\r",
+            "type": ""
+        },
+        "22": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "23": {
+            "content": "         * logical_step_2: Create an object of the Groceries class and call the instance method otherGroceries().\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "24": {
+            "content": "         * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "25": {
+            "content": "         * question_2: What is the purpose of creating an object of the Groceries class?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "26": {
+            "content": "         * question_3: What is the purpose of otherGroceries() method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "27": {
+            "content": "         * statement_comment: The instance method otherGroceries() is called using the object otherGroceries of the Groceries class.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "28": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "29": {
+            "content": "        Groceries otherGroceries = new Groceries();\r",
+            "type": "code_body"
+        },
+        "30": {
+            "content": "        otherGroceries.otherGroceries(); \r",
+            "type": "code_body"
+        },
+        "31": {
+            "content": "    }}\r",
+            "type": "code_body"
+        },
+        "32": {
+            "content": "}}\r",
+            "type": "code_body"
+        },
+        "33": {
+            "content": "",
+            "type": ""
+        }
+    }
+}

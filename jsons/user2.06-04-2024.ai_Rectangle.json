@@ -1,0 +1,508 @@
+{
+    "original_file_name": "ai_Rectangle.java",
+    "json_file_name": "user2.06-04-2024.ai_Rectangle.json",
+    "user": "user2",
+    "date": "06-04-2024",
+    "other_info": "",
+    "lines": {
+        "1": {
+            "content": "/**\r",
+            "type": "begin_header"
+        },
+        "2": {
+            "content": " * author: Dipesh Gautam\r",
+            "type": "header_comment"
+        },
+        "3": {
+            "content": " * topics: Classes and Objects\r",
+            "type": "header_comment"
+        },
+        "4": {
+            "content": " * subtopics: Creating objects, accessing object variables and methods\r",
+            "type": "header_comment"
+        },
+        "5": {
+            "content": " * goalDescription: This program creates a rectangle object and calculates its area.\r",
+            "type": "header_comment"
+        },
+        "6": {
+            "content": " * source: N/A\r",
+            "type": "header_comment"
+        },
+        "7": {
+            "content": " * output: Area : 10.0\r",
+            "type": "header_comment"
+        },
+        "8": {
+            "content": "*/\r",
+            "type": "end_header"
+        },
+        "9": {
+            "content": "\r",
+            "type": ""
+        },
+        "10": {
+            "content": "public class Rectangle {{\r",
+            "type": "code_body"
+        },
+        "11": {
+            "content": "    \r",
+            "type": ""
+        },
+        "12": {
+            "content": "    private float height;\r",
+            "type": "code_body"
+        },
+        "13": {
+            "content": "    private float width;\r",
+            "type": "code_body"
+        },
+        "14": {
+            "content": "    \r",
+            "type": ""
+        },
+        "15": {
+            "content": "\r",
+            "type": ""
+        },
+        "16": {
+            "content": "    /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "17": {
+            "content": "     * logical_step_1: Create a constructor to initialize the height and width of the rectangle object.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "18": {
+            "content": "     * question_1: What is the purpose of the constructor?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "19": {
+            "content": "     * question_2: What are the parameters of the constructor?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "20": {
+            "content": "     * gap_fill_question_1: The value of height is ___ and width is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "21": {
+            "content": "     * hint_1: The constructor initializes the object variables with the values passed as parameters.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "22": {
+            "content": "     */\r",
+            "type": "end_comment"
+        },
+        "23": {
+            "content": "    public Rectangle(float height, float width) {{\r",
+            "type": "code_body"
+        },
+        "24": {
+            "content": "        this.height = height;\r",
+            "type": "code_body"
+        },
+        "25": {
+            "content": "        this.width = width;\r",
+            "type": "code_body"
+        },
+        "26": {
+            "content": "    }}\r",
+            "type": "code_body"
+        },
+        "27": {
+            "content": "\r",
+            "type": ""
+        },
+        "28": {
+            "content": "    \r",
+            "type": ""
+        },
+        "29": {
+            "content": "\r",
+            "type": ""
+        },
+        "30": {
+            "content": "    /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "31": {
+            "content": "     * logical_step_2: Create getter methods to access the height and width of the rectangle object.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "32": {
+            "content": "     * question_1: What is the purpose of getHeight() method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "33": {
+            "content": "     * question_2: What is the return type of getHeight() method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "34": {
+            "content": "     * gap_fill_question_1: The return type of getHeight() method is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "35": {
+            "content": "     * question_3: What is the purpose of getWidth() method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "36": {
+            "content": "     * question_4: What is the return type of getWidth() method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "37": {
+            "content": "     * gap_fill_question_2: The return type of getWidth() method is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "38": {
+            "content": "     */\r",
+            "type": "end_comment"
+        },
+        "39": {
+            "content": "    public float getHeight() {{\r",
+            "type": "code_body"
+        },
+        "40": {
+            "content": "        return height;\r",
+            "type": "code_body"
+        },
+        "41": {
+            "content": "    }}\r",
+            "type": "code_body"
+        },
+        "42": {
+            "content": "\r",
+            "type": ""
+        },
+        "43": {
+            "content": "    public float getWidth() {{\r",
+            "type": "code_body"
+        },
+        "44": {
+            "content": "        return width;\r",
+            "type": "code_body"
+        },
+        "45": {
+            "content": "    }}\r",
+            "type": "code_body"
+        },
+        "46": {
+            "content": "\r",
+            "type": ""
+        },
+        "47": {
+            "content": "    \r",
+            "type": ""
+        },
+        "48": {
+            "content": "    /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 0
+            }
+        },
+        "49": {
+            "content": "     * logical_step_3: Create a method to calculate the area of the rectangle object.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "50": {
+            "content": "     * question_1: What is the purpose of calculateArea() method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "51": {
+            "content": "     * question_2: What is the return type of calculateArea() method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "52": {
+            "content": "     * gap_fill_question_1: The return type of calculateArea() method is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "53": {
+            "content": "     * question_3: What is the formula to calculate the area of a rectangle?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "54": {
+            "content": "     * hint_1: The area of a rectangle is calculated by multiplying its height and width.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "55": {
+            "content": "     */\r",
+            "type": "end_comment"
+        },
+        "56": {
+            "content": "    public float calculateArea() {{\r",
+            "type": "code_body"
+        },
+        "57": {
+            "content": "        float area = this.height * this.width;\r",
+            "type": "code_body"
+        },
+        "58": {
+            "content": "        return area;\r",
+            "type": "code_body"
+        },
+        "59": {
+            "content": "    }}\r",
+            "type": "code_body"
+        },
+        "60": {
+            "content": "\r",
+            "type": ""
+        },
+        "61": {
+            "content": "\r",
+            "type": ""
+        },
+        "62": {
+            "content": "    public static void main(String[] args) {{\r",
+            "type": "code_body"
+        },
+        "63": {
+            "content": "        \r",
+            "type": ""
+        },
+        "64": {
+            "content": "        \r",
+            "type": ""
+        },
+        "65": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "66": {
+            "content": "         * logical_step_4: Create an object of the Rectangle class and calculate its area.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "67": {
+            "content": "         * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "68": {
+            "content": "         * question_2: What are the values passed as parameters to the constructor?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "69": {
+            "content": "         * gap_fill_question_1: The height and width of the rectangle object are ___ and ___ respectively.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "70": {
+            "content": "         * question_3: What is the purpose of myBox object?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "71": {
+            "content": "         * question_4: What is the data type of myBox object?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "72": {
+            "content": "         * gap_fill_question_2: The data type of myBox object is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "73": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "74": {
+            "content": "        Rectangle myBox = new Rectangle(2, 5);\r",
+            "type": "code_body"
+        },
+        "75": {
+            "content": "\r",
+            "type": ""
+        },
+        "76": {
+            "content": "        \r",
+            "type": ""
+        },
+        "77": {
+            "content": "        \r",
+            "type": ""
+        },
+        "78": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "79": {
+            "content": "         * logical_step_5: Calculate the area of the rectangle object and print it.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "80": {
+            "content": "         * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "81": {
+            "content": "         * question_2: What is the value of area?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "82": {
+            "content": "         * gap_fill_question_1: The value of area is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "83": {
+            "content": "         * question_3: What is the output of the program?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "84": {
+            "content": "         * hint_1: The output is \"Area : 10.0\".\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "85": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "86": {
+            "content": "        float area = myBox.calculateArea();\r",
+            "type": "code_body"
+        },
+        "87": {
+            "content": "        System.out.println(\"Area : \" + area);\r",
+            "type": "code_body"
+        },
+        "88": {
+            "content": "    }}\r",
+            "type": "code_body"
+        },
+        "89": {
+            "content": "\r",
+            "type": ""
+        },
+        "90": {
+            "content": "}}",
+            "type": "code_body"
+        }
+    }
+}

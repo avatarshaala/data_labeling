@@ -1,0 +1,262 @@
+{
+    "original_file_name": "ai_ComputeAreaWithConstan.java",
+    "json_file_name": "user1.04-04-2024.ai_ComputeAreaWithConstan.json",
+    "user": "user1",
+    "date": "04-04-2024",
+    "other_info": "",
+    "lines": {
+        "1": {
+            "content": "/**\r",
+            "type": "begin_header"
+        },
+        "2": {
+            "content": " * author: Dipesh Gautam\r",
+            "type": "header_comment"
+        },
+        "3": {
+            "content": " * topics: Variables, Constants, Arithmetic Operations\r",
+            "type": "header_comment"
+        },
+        "4": {
+            "content": " * subtopics: declaring and initializing variables, using constants, performing arithmetic operations\r",
+            "type": "header_comment"
+        },
+        "5": {
+            "content": " * goalDescription: This program calculates the area of a circle.\r",
+            "type": "header_comment"
+        },
+        "6": {
+            "content": " * source: Introduction to Java Programming, Y. Daniel Liang\r",
+            "type": "header_comment"
+        },
+        "7": {
+            "content": " * input: N/A\r",
+            "type": "header_comment"
+        },
+        "8": {
+            "content": " * output: The area for the circle of radius 5.80 is 105.68\r",
+            "type": "header_comment"
+        },
+        "9": {
+            "content": "*/\r",
+            "type": "end_header"
+        },
+        "10": {
+            "content": "\r",
+            "type": ""
+        },
+        "11": {
+            "content": "public class ComputeAreaWithConstant {{\r",
+            "type": "code_body"
+        },
+        "12": {
+            "content": "  public static void main(String[] args) {{\r",
+            "type": "code_body"
+        },
+        "13": {
+            "content": "  \r",
+            "type": ""
+        },
+        "14": {
+            "content": "    /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "15": {
+            "content": "     * logical_step_1: Declare and initialize a constant PI and a variable radius.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "16": {
+            "content": "     * question_1: What is the purpose of the final keyword before double PI?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "17": {
+            "content": "     * question_2: What is the value of PI?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "18": {
+            "content": "     * gap_fill_question_1: The value of PI is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "19": {
+            "content": "     * question_3: What is the data type of radius?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "20": {
+            "content": "     * gap_fill_question_2: The data type of radius is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "21": {
+            "content": "     * question_4: What is the value of radius?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "22": {
+            "content": "     * gap_fill_question_3: The value of radius is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "23": {
+            "content": "     */\r",
+            "type": "end_comment"
+        },
+        "24": {
+            "content": "    final double PI = 3.14159; \r",
+            "type": "code_body"
+        },
+        "25": {
+            "content": "    double radius = 5.8; \r",
+            "type": "code_body"
+        },
+        "26": {
+            "content": "\r",
+            "type": ""
+        },
+        "27": {
+            "content": "    /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "28": {
+            "content": "     * logical_step_2: Calculate the area of the circle using the formula: area = radius * radius * PI.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "29": {
+            "content": "     * question_1: What does the following line of code do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "30": {
+            "content": "     * question_2: What is the value of area?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "31": {
+            "content": "     * gap_fill_question_1: The value of area is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "32": {
+            "content": "     */\r",
+            "type": "end_comment"
+        },
+        "33": {
+            "content": "    double area = radius * radius * PI;\r",
+            "type": "code_body"
+        },
+        "34": {
+            "content": "    \r",
+            "type": ""
+        },
+        "35": {
+            "content": "    /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 0
+            }
+        },
+        "36": {
+            "content": "     * logical_step_3: Print the calculated area of the circle.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "37": {
+            "content": "     * question_1: What does the following line of code do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "38": {
+            "content": "     * question_2: What is the output of this program?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "39": {
+            "content": "     * gap_fill_question_1: The output of this program is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "40": {
+            "content": "     * hint_1: The output is in the format \"The area for the circle of radius 5.80 is 105.68\".\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 0
+            }
+        },
+        "41": {
+            "content": "     */\r",
+            "type": "end_comment"
+        },
+        "42": {
+            "content": "    System.out.printf(\"The area for the circle of radius %.2f is %.2f \", radius, area);\r",
+            "type": "code_body"
+        },
+        "43": {
+            "content": "  }}\r",
+            "type": "code_body"
+        },
+        "44": {
+            "content": "}}",
+            "type": "code_body"
+        }
+    }
+}

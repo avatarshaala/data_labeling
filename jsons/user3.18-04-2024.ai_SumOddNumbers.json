@@ -1,0 +1,270 @@
+{
+    "original_file_name": "ai_SumOddNumbers.java",
+    "json_file_name": "user3.18-04-2024.ai_SumOddNumbers.json",
+    "user": "user3",
+    "date": "18-04-2024",
+    "other_info": "",
+    "lines": {
+        "1": {
+            "content": "/**\r",
+            "type": "begin_header"
+        },
+        "2": {
+            "content": " * author: Dipesh Gautam\r",
+            "type": "header_comment"
+        },
+        "3": {
+            "content": " * topic: For Loops\r",
+            "type": "header_comment"
+        },
+        "4": {
+            "content": " * subTopic: getting familiar with for-loop in java\r",
+            "type": "header_comment"
+        },
+        "5": {
+            "content": " * goalDescription: 50 chickens are separated in odd-numbered and even-numbered cages with the first chicken being in cage 1 and the last chicken in cage 50.\r",
+            "type": "header_comment"
+        },
+        "6": {
+            "content": " * Each cage's number indicates the number of eggs that the chicken lays such that chicken in cage n lays n eggs.\r",
+            "type": "header_comment"
+        },
+        "7": {
+            "content": " * How many eggs can be collected from all the chickens in the odd-numbered cages? This program computes that\r",
+            "type": "header_comment"
+        },
+        "8": {
+            "content": " * source: N/A\r",
+            "type": "header_comment"
+        },
+        "9": {
+            "content": " * output:  there are  625 eggs collected\r",
+            "type": "header_comment"
+        },
+        "10": {
+            "content": "*/\r",
+            "type": "end_header"
+        },
+        "11": {
+            "content": "\r",
+            "type": ""
+        },
+        "12": {
+            "content": "public class eggsCollectedOddNumbers {{\r",
+            "type": "code_body"
+        },
+        "13": {
+            "content": "    public static void main(String args[]){{\r",
+            "type": "code_body"
+        },
+        "14": {
+            "content": "        \r",
+            "type": ""
+        },
+        "15": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "16": {
+            "content": "         * logical_step_1: Initialize the variable eggsCollected to 0 to store the total number of eggs collected.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "17": {
+            "content": "         * question_1: What is the purpose of eggsCollected variable?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "18": {
+            "content": "         * question_2: What is the initial value of eggsCollected?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "19": {
+            "content": "         * gap_fill_question_1: The initial value of eggsCollected is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "20": {
+            "content": "         * hint_1: What is the default value of int data type?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "21": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "22": {
+            "content": "        int eggsCollected=0;\r",
+            "type": "code_body"
+        },
+        "23": {
+            "content": "\r",
+            "type": ""
+        },
+        "24": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 0
+            }
+        },
+        "25": {
+            "content": "         * logical_step_2: Iterate through the odd-numbered cages from 1 to 50 and add the number of eggs laid by each chicken to eggsCollected.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "26": {
+            "content": "         * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "27": {
+            "content": "         * question_2: How many times the loop run?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "28": {
+            "content": "         * question_3: What is the value of i in the first iteration?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "29": {
+            "content": "         * question_4: What is the value of i in the last iteration?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "30": {
+            "content": "         * gap_fill_question_1: The value of i in the first iteration is ___ and in the last iteration is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "31": {
+            "content": "         * question_5: What is the value of eggsCollected after the loop completes?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "32": {
+            "content": "         * gap_fill_question_2: The value of eggsCollected after the loop completes is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "33": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "34": {
+            "content": "        for(int i=1; i<=50; i+=2){{\r",
+            "type": "code_body"
+        },
+        "35": {
+            "content": "            eggsCollected = eggsCollected + i;\r",
+            "type": "code_body"
+        },
+        "36": {
+            "content": "        }}\r",
+            "type": "code_body"
+        },
+        "37": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "38": {
+            "content": "         * logical_step_3: Print the total number of eggs collected from the odd-numbered cages.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "39": {
+            "content": "         * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "40": {
+            "content": "         * question_2: What is the output of the program?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "41": {
+            "content": "         * gap_fill_question_1: The output of the program is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "42": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "43": {
+            "content": "        System.out.println(\"There are \" + eggsCollected+\" eggs collected\");\r",
+            "type": "code_body"
+        },
+        "44": {
+            "content": "    }}\r",
+            "type": "code_body"
+        },
+        "45": {
+            "content": "\r",
+            "type": ""
+        },
+        "46": {
+            "content": "}}",
+            "type": "code_body"
+        }
+    }
+}

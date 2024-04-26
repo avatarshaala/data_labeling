@@ -1,0 +1,243 @@
+{
+    "original_file_name": "ai_SumOfNaturalNum.java",
+    "json_file_name": "user4.26-04-2024.ai_SumOfNaturalNum.json",
+    "user": "user4",
+    "date": "26-04-2024",
+    "other_info": "",
+    "lines": {
+        "1": {
+            "content": "/**\r",
+            "type": "begin_header"
+        },
+        "2": {
+            "content": " * author: Dipesh Gautam\r",
+            "type": "header_comment"
+        },
+        "3": {
+            "content": " * topic: For Loops\r",
+            "type": "header_comment"
+        },
+        "4": {
+            "content": " * subTopic: getting familiar with for-loop in java\r",
+            "type": "header_comment"
+        },
+        "5": {
+            "content": " * goalDescription: Program to find the sum of natural numbers from 1 to 10.\r",
+            "type": "header_comment"
+        },
+        "6": {
+            "content": " * source: https://www.programiz.com/java-programming/for-loop\r",
+            "type": "header_comment"
+        },
+        "7": {
+            "content": " * output: Sum = 55\r",
+            "type": "header_comment"
+        },
+        "8": {
+            "content": "*/\r",
+            "type": "end_header"
+        },
+        "9": {
+            "content": "\r",
+            "type": ""
+        },
+        "10": {
+            "content": "public class SumOfNaturalNumber {{\r",
+            "type": "code_body"
+        },
+        "11": {
+            "content": "  public static void main(String[] args) {{\r",
+            "type": "code_body"
+        },
+        "12": {
+            "content": "      \r",
+            "type": ""
+        },
+        "13": {
+            "content": "      /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 0
+            }
+        },
+        "14": {
+            "content": "       * logical_step_1: Declare and initialize variables to store the sum and the limit of the natural numbers\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "15": {
+            "content": "       * question_1: What is the purpose of variable sum?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "16": {
+            "content": "       * question_2: What is the initial value of sum?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "17": {
+            "content": "       * gap_fill_question_1: The value of sum is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "18": {
+            "content": "       * question_3: What is the purpose of variable n?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "19": {
+            "content": "       * question_4: What is the value of n?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "20": {
+            "content": "       * gap_fill_question_2: The value of n is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "21": {
+            "content": "       */\r",
+            "type": "end_comment"
+        },
+        "22": {
+            "content": "      int sum = 0;\r",
+            "type": "code_body"
+        },
+        "23": {
+            "content": "      int n = 10;\r",
+            "type": "code_body"
+        },
+        "24": {
+            "content": "\r",
+            "type": ""
+        },
+        "25": {
+            "content": "       \r",
+            "type": ""
+        },
+        "26": {
+            "content": "      /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 0
+            }
+        },
+        "27": {
+            "content": "       * logical_step_2: Use a for loop to iterate through the natural numbers from 1 to n and add them to the sum\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "28": {
+            "content": "       * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "29": {
+            "content": "       * question_2: How many times the loop run?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "30": {
+            "content": "       * gap_fill_question_1: The starting value of i in the loop is ___ and final value is ___?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "31": {
+            "content": "       * question_3: What is the value of i when the loop runs for the first time?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "32": {
+            "content": "       * question_4: What is the value of i when the loop runs for the last time?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "33": {
+            "content": "       * question_5: What is the value of sum when the loop runs for the first time?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "34": {
+            "content": "       * question_6: What is the value of sum when the loop runs for the last time?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "35": {
+            "content": "       */\r",
+            "type": "end_comment"
+        },
+        "36": {
+            "content": "      for (int i = 1; i <= n; ++i) {{\r",
+            "type": "code_body"
+        },
+        "37": {
+            "content": "        sum += i; \r",
+            "type": "code_body"
+        },
+        "38": {
+            "content": "      }}\r",
+            "type": "code_body"
+        },
+        "39": {
+            "content": "      System.out.println(\"Sum = \" + sum);\r",
+            "type": "code_body"
+        },
+        "40": {
+            "content": "\r",
+            "type": ""
+        },
+        "41": {
+            "content": "   }}\r",
+            "type": "code_body"
+        },
+        "42": {
+            "content": "}}",
+            "type": "code_body"
+        }
+    }
+}

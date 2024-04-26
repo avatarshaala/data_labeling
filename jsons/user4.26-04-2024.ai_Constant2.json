@@ -1,0 +1,357 @@
+{
+    "original_file_name": "ai_Constant2.java",
+    "json_file_name": "user4.26-04-2024.ai_Constant2.json",
+    "user": "user4",
+    "date": "26-04-2024",
+    "other_info": "",
+    "lines": {
+        "1": {
+            "content": "/**\r",
+            "type": "begin_header"
+        },
+        "2": {
+            "content": " * author: Dipesh Gautam\r",
+            "type": "header_comment"
+        },
+        "3": {
+            "content": " * topic: Variables and Constants\r",
+            "type": "header_comment"
+        },
+        "4": {
+            "content": " * subTopic: using constants in Java\r",
+            "type": "header_comment"
+        },
+        "5": {
+            "content": " * goalDescription: As a class assignment, calculate the area of a circle given its radius.\r",
+            "type": "header_comment"
+        },
+        "6": {
+            "content": " * source: N/A\r",
+            "type": "header_comment"
+        },
+        "7": {
+            "content": " * output: 78.53999999\r",
+            "type": "header_comment"
+        },
+        "8": {
+            "content": "*/\r",
+            "type": "end_header"
+        },
+        "9": {
+            "content": "\r",
+            "type": ""
+        },
+        "10": {
+            "content": "public class Constant2 {{\r",
+            "type": "code_body"
+        },
+        "11": {
+            "content": "\r",
+            "type": ""
+        },
+        "12": {
+            "content": "    public static void main(String args[]) {{\r",
+            "type": "code_body"
+        },
+        "13": {
+            "content": "        \r",
+            "type": ""
+        },
+        "14": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 0
+            }
+        },
+        "15": {
+            "content": "         * logical_step_1: Declare a constant PI and initialize it with the value 3.1416\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "16": {
+            "content": "         * question_1: What is the purpose of declaring PI as a constant?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "17": {
+            "content": "         * question_2: What is the value of PI?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "18": {
+            "content": "         * gap_fill_question_1: The value of PI is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "19": {
+            "content": "         * hint_1: What is the value of PI?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "20": {
+            "content": "         * question_3: What is the data type of PI?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "21": {
+            "content": "         * gap_fill_question_2: The data type of PI is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "22": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "23": {
+            "content": "        final double PI = 3.1416;    \r",
+            "type": "code_body"
+        },
+        "24": {
+            "content": "        \r",
+            "type": ""
+        },
+        "25": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 0
+            }
+        },
+        "26": {
+            "content": "         * logical_step_2: Declare a variable radius and initialize it with the value 5\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "27": {
+            "content": "         * question_1: What is the purpose of declaring radius?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "28": {
+            "content": "         * question_2: What is the value of radius?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "29": {
+            "content": "         * gap_fill_question_1: The value of radius is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "30": {
+            "content": "         * hint_1: What is the value of radius?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "31": {
+            "content": "         * question_3: What is the data type of radius?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "32": {
+            "content": "         * gap_fill_question_2: The data type of radius is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "33": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "34": {
+            "content": "        int radius = 5;\r",
+            "type": "code_body"
+        },
+        "35": {
+            "content": "        \r",
+            "type": ""
+        },
+        "36": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 0
+            }
+        },
+        "37": {
+            "content": "         * logical_step_3: Calculate the area of the circle using the formula PI * radius^2\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "38": {
+            "content": "         * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "39": {
+            "content": "         * question_2: What is the value of areaOfCircle?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "40": {
+            "content": "         * gap_fill_question_1: The value of areaOfCircle is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "41": {
+            "content": "         * hint_1: What is the formula to calculate the area of a circle?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "42": {
+            "content": "         * question_3: What is the data type of areaOfCircle?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "43": {
+            "content": "         * gap_fill_question_2: The data type of areaOfCircle is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "44": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "45": {
+            "content": "        double areaOfCircle = PI * Math.pow(radius, 2);       \r",
+            "type": "code_body"
+        },
+        "46": {
+            "content": "        \r",
+            "type": ""
+        },
+        "47": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 0
+            }
+        },
+        "48": {
+            "content": "         * logical_step_4: Print the value of areaOfCircle\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "49": {
+            "content": "         * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "50": {
+            "content": "         * question_2: What is the output of the program?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "51": {
+            "content": "         * gap_fill_question_1: The output of the program is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "52": {
+            "content": "         * hint_1: What is the value of areaOfCircle?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "53": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "54": {
+            "content": "        System.out.println(areaOfCircle); \r",
+            "type": "code_body"
+        },
+        "55": {
+            "content": "        \r",
+            "type": ""
+        },
+        "56": {
+            "content": "    }}\r",
+            "type": "code_body"
+        },
+        "57": {
+            "content": "\r",
+            "type": ""
+        },
+        "58": {
+            "content": "}}",
+            "type": "code_body"
+        }
+    }
+}

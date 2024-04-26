@@ -21,3 +21,5 @@ streamlit-modal
 streamlit-float
 seaborn
 streamlit-aggrid
+matplotlib
+statsmodels

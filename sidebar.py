@@ -65,12 +65,22 @@ class Sidebar:
         date_today = st.session_state.date_today
         user = st.session_state.user
 
-        st.markdown(f"""User: {user}<br>Date: {date_today}""",
+        user_options = [user] if user != 'admin' else st.session_state.all_users_passwords.keys()
+
+        st.markdown(f"""Hello: <b>{user}</b><br>Today: {date_today}""",
                     unsafe_allow_html=True)
+
+        btn_logout = st.button("Logout!", key="btn_logout", type="primary")
+        if btn_logout:
+            #clear the states of the session
+            st.session_state.authenticated = None
+            for key in st.session_state.keys():
+                del st.session_state[key]
+            st.rerun()
 
         st.divider()
 
-        json_files, users, dates = st.session_state.json_files
+
 
         uploaded_file = st.file_uploader("Upload Java code file", type=["java"])
 
@@ -78,6 +88,8 @@ class Sidebar:
 
             filename = uploaded_file.name
             json_filename = dotjava_to_dotjson(filename, user, date_today)
+
+            json_files, _, _ = st.session_state.json_files
 
             if json_filename in json_files:
                 st.write("Warning: There already exist JSON file of this name")
@@ -89,14 +101,31 @@ class Sidebar:
                     Sidebar.__save_annotation(st, create_new=None)
 
                     # reload the JSON files
-                    st.session_state.json_files = Sidebar.__list_json_files(st, user=None, date=None)
-                    json_files, users, dates = st.session_state.json_files
+                    if user == 'admin':
+                        st.session_state.json_files = Sidebar.__list_json_files(st, user=None, date=None)
+                    else:
+                        st.session_state.json_files = Sidebar.__list_json_files(st, user=user, date=None)
+                    # json_files, users, dates = st.session_state.json_files
 
                 st.write(f"{filename} saved")
 
 
 
-        #handle file selection option on change event
+        # Handle User selection option change event
+        def user_sel_change():
+            user_option = st.session_state.sel_user
+            date_option = st.session_state.sel_date
+            st.session_state.filtered_files, st.session_state.filtered_users, st.session_state.filtered_dates = \
+                Sidebar.__list_json_files(st, user=user_option, date=date_option)
+
+        # Handle date selection change event
+        def date_sel_change():
+            user_option = st.session_state.sel_user
+            date_option = st.session_state.sel_date
+            st.session_state.filtered_files, st.session_state.filtered_users, _ = \
+                Sidebar.__list_json_files(st, user=user_option, date=date_option)
+
+        # Handle file selection option change event
         def file_sel_change():
             # print("ONCHANGE ON CHANGE", st.session_state.sel_file)
             if st.session_state.sel_file is not None:
@@ -104,12 +133,33 @@ class Sidebar:
                 st.session_state.working_labeling_data = JavaToJSON.read_json(file_option, st.session_state.json_dir)
                 st.session_state.working_file = file_option
 
+        filtered_users = st.session_state.filtered_users
+        filtered_dates = st.session_state.filtered_dates
+        filtered_files = st.session_state.filtered_files
 
-        user_option = st.selectbox("Select user:", users, index=None, key="sel_user")
+        user_option = st.selectbox(
+            "Select user:",
+            user_options,
+            index=None,
+            key="sel_user",
+            on_change=user_sel_change
+        )
 
-        date_option = st.selectbox("Select file date:", dates, index=None, key = "sel_date")
+        date_option = st.selectbox(
+            "Select file date:",
+            filtered_dates,
+            index=None,
+            key = "sel_date",
+            on_change=date_sel_change
+        )
 
-        file_option = st.selectbox("Select file:", json_files, index=None, key="sel_file", on_change=file_sel_change)
+        file_option = st.selectbox(
+            "Select file:",
+            filtered_files,
+            index=None,
+            key="sel_file",
+            on_change=file_sel_change
+        )
 
         st.write(f"User Option: {user_option}")
         st.write(f"Date Option: {date_option}")
@@ -120,7 +170,25 @@ class Sidebar:
     def load_sidebar(st):
         if "json_files" not in st.session_state:
             user = st.session_state.user
-            st.session_state.json_files = Sidebar.__list_json_files(st, user=None, date=None)
+            if user == 'admin':
+                st.session_state.json_files = Sidebar.__list_json_files(st, user=None, date=None)
+            else:
+                st.session_state.json_files = Sidebar.__list_json_files(st, user=user, date=None)
+
+        if "filtered_files" not in st.session_state:
+            files, _, _ = st.session_state.json_files
+            st.session_state.filtered_files = files
+
+        if "filtered_users" not in st.session_state:
+            _, users,_ = st.session_state.json_files
+            st.session_state.filtered_users = users
+
+        if "filtered_dates" not in st.session_state:
+            _, _, dates = st.session_state.json_files
+            st.session_state.filtered_dates = dates
+
+
+
 
         with st.sidebar:
             Sidebar.__create_sidebar(st)

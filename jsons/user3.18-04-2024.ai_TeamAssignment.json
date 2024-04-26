@@ -1,0 +1,227 @@
+{
+    "original_file_name": "ai_TeamAssignment.java",
+    "json_file_name": "user3.18-04-2024.ai_TeamAssignment.json",
+    "user": "user3",
+    "date": "18-04-2024",
+    "other_info": "",
+    "lines": {
+        "1": {
+            "content": "/**\r",
+            "type": "begin_header"
+        },
+        "2": {
+            "content": " * author: Dipesh Gautam\r",
+            "type": "header_comment"
+        },
+        "3": {
+            "content": " * topic: Conditional Statements\r",
+            "type": "header_comment"
+        },
+        "4": {
+            "content": " * subTopic: if-else statement\r",
+            "type": "header_comment"
+        },
+        "5": {
+            "content": " * goalDescription: This program assigns a jersey to one of two teams, teamE if jersey number is even else to teamO\r",
+            "type": "header_comment"
+        },
+        "6": {
+            "content": " * source:N/A\r",
+            "type": "header_comment"
+        },
+        "7": {
+            "content": " * output: assigned to teamE\r",
+            "type": "header_comment"
+        },
+        "8": {
+            "content": "*/\r",
+            "type": "end_header"
+        },
+        "9": {
+            "content": "\r",
+            "type": ""
+        },
+        "10": {
+            "content": "public class TeamAssignment {{\r",
+            "type": "code_body"
+        },
+        "11": {
+            "content": "\tpublic static void main(String[] args) {{\r",
+            "type": "code_body"
+        },
+        "12": {
+            "content": "\r",
+            "type": ""
+        },
+        "13": {
+            "content": "\t\t/**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "14": {
+            "content": "\t\t * logical_step_1: Declare and initialize a variable to store the jersey number\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "15": {
+            "content": "\t\t * question_1: What is the purpose of variable jersey_number?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "16": {
+            "content": "\t\t * question_2: What is the value of jersey_number?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "17": {
+            "content": "\t\t * gap_fill_question_1: The variable jersey_number is initialized to 10 because ___ ?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "18": {
+            "content": "\t\t * gap_fill_question_2: the data type of variable jersey_number is ___ ?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "19": {
+            "content": "\t\t * followup_question_1: What will be the output if jersey_number is initialized to 7?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "20": {
+            "content": "\t\t */\r",
+            "type": "end_comment"
+        },
+        "21": {
+            "content": "\t\tint jersey_number = 10;\r",
+            "type": "code_body"
+        },
+        "22": {
+            "content": "\r",
+            "type": ""
+        },
+        "23": {
+            "content": "\t\t/**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "24": {
+            "content": "\t\t * logical_step_2: Check if the jersey number is even or odd using the modulo operator\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "25": {
+            "content": "\t\t * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "26": {
+            "content": "\t\t * question_2: What is the purpose of jersey_number % 2 == 0?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "27": {
+            "content": "\t\t * question_3: What is the value of jersey_number % 2?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "28": {
+            "content": "\t\t * gap_fill_question_1: The value of jersey_number % 2 is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "29": {
+            "content": "\t\t * question_4: What is the output when jersey_number is 10?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "30": {
+            "content": "\t\t * question_5: What is the output when jersey_number is 7?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "31": {
+            "content": "\t\t */\r",
+            "type": "end_comment"
+        },
+        "32": {
+            "content": "\t\tif (jersey_number % 2 == 0) {{\r",
+            "type": "code_body"
+        },
+        "33": {
+            "content": "\t\t\tSystem.out.println(\"assigned to teamE \");\r",
+            "type": "code_body"
+        },
+        "34": {
+            "content": "\t\t}}\r",
+            "type": "code_body"
+        },
+        "35": {
+            "content": "\t\telse {{\r",
+            "type": "code_body"
+        },
+        "36": {
+            "content": "\t\t\tSystem.out.println(\"assigned to teamO \");\r",
+            "type": "code_body"
+        },
+        "37": {
+            "content": "\t\t}}\r",
+            "type": "code_body"
+        },
+        "38": {
+            "content": "\r",
+            "type": ""
+        },
+        "39": {
+            "content": "\t}}\r",
+            "type": "code_body"
+        },
+        "40": {
+            "content": "}}",
+            "type": "code_body"
+        }
+    }
+}

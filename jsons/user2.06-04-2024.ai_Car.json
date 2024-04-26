@@ -1,0 +1,480 @@
+{
+    "original_file_name": "ai_Car.java",
+    "json_file_name": "user2.06-04-2024.ai_Car.json",
+    "user": "user2",
+    "date": "06-04-2024",
+    "other_info": "",
+    "lines": {
+        "1": {
+            "content": "/**\r",
+            "type": "begin_header"
+        },
+        "2": {
+            "content": " * author: Dipesh Gautam\r",
+            "type": "header_comment"
+        },
+        "3": {
+            "content": " * topics: Classes and Objects\r",
+            "type": "header_comment"
+        },
+        "4": {
+            "content": " * subtopics: Encapsulation, Access Modifiers, Methods\r",
+            "type": "header_comment"
+        },
+        "5": {
+            "content": " * goalDescription: This program checks if the current speed of car is the max speed of car or not.\r",
+            "type": "header_comment"
+        },
+        "6": {
+            "content": " * source:https://www.w3schools.com/java/java_class_methods.asp\r",
+            "type": "header_comment"
+        },
+        "7": {
+            "content": " * output: The car is at max speed\r",
+            "type": "header_comment"
+        },
+        "8": {
+            "content": "*/\r",
+            "type": "end_header"
+        },
+        "9": {
+            "content": "\r",
+            "type": ""
+        },
+        "10": {
+            "content": "public class Car {{\r",
+            "type": "code_body"
+        },
+        "11": {
+            "content": "    \r",
+            "type": ""
+        },
+        "12": {
+            "content": "    /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "13": {
+            "content": "     * logical_step_1: Declare private instance variables to store current speed and max speed of the car.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "14": {
+            "content": "     * question_1: What is the purpose of private modifier before instance variables?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "15": {
+            "content": "     * question_2: What is the data type of currentSpeed and maxSpeed?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "16": {
+            "content": "     * question_3: What is the default value of currentSpeed and maxSpeed?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "17": {
+            "content": "     * gap_fill_question_1: The data type of currentSpeed is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "18": {
+            "content": "     * gap_fill_question_2: The data type of maxSpeed is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "19": {
+            "content": "     */\r",
+            "type": "end_comment"
+        },
+        "20": {
+            "content": "    private float currentSpeed;\r",
+            "type": "code_body"
+        },
+        "21": {
+            "content": "    private float maxSpeed;\r",
+            "type": "code_body"
+        },
+        "22": {
+            "content": "\r",
+            "type": ""
+        },
+        "23": {
+            "content": "    \r",
+            "type": ""
+        },
+        "24": {
+            "content": "    /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 0
+            }
+        },
+        "25": {
+            "content": "     * logical_step_2: Define setter methods to set the values of currentSpeed and maxSpeed.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "26": {
+            "content": "     * question_1: What is the purpose of setter methods?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "27": {
+            "content": "     * question_2: What is the access modifier of setCurrentSpeed() method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "28": {
+            "content": "     * question_3: What is the return type of setCurrentSpeed() method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "29": {
+            "content": "     * question_4: What is the parameter of setCurrentSpeed() method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "30": {
+            "content": "     * gap_fill_question_1: The return type of setCurrentSpeed() method is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "31": {
+            "content": "     * gap_fill_question_2: The parameter of setCurrentSpeed() method is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "32": {
+            "content": "     */\r",
+            "type": "end_comment"
+        },
+        "33": {
+            "content": "    public void setCurrentSpeed(float currentSpeed) {{\r",
+            "type": "code_body"
+        },
+        "34": {
+            "content": "        this.currentSpeed = currentSpeed;\r",
+            "type": "code_body"
+        },
+        "35": {
+            "content": "    }}\r",
+            "type": "code_body"
+        },
+        "36": {
+            "content": "\r",
+            "type": ""
+        },
+        "37": {
+            "content": "    public void setMaxSpeed(float maxSpeed) {{\r",
+            "type": "code_body"
+        },
+        "38": {
+            "content": "        this.maxSpeed = maxSpeed;\r",
+            "type": "code_body"
+        },
+        "39": {
+            "content": "    }}\r",
+            "type": "code_body"
+        },
+        "40": {
+            "content": "\r",
+            "type": ""
+        },
+        "41": {
+            "content": "    \r",
+            "type": ""
+        },
+        "42": {
+            "content": "    /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "43": {
+            "content": "     * logical_step_3: Define a method to check if the current speed is equal to the max speed.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "44": {
+            "content": "     * question_1: What is the purpose of checkSpeed() method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "45": {
+            "content": "     * question_2: What is the access modifier of checkSpeed() method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "46": {
+            "content": "     * question_3: What is the return type of checkSpeed() method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "47": {
+            "content": "     * question_4: What is the output when the current speed is equal to the max speed?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "48": {
+            "content": "     * gap_fill_question_1: The return type of checkSpeed() method is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "49": {
+            "content": "     * statement_comment: The method compares the current speed with the max speed and prints the appropriate message.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "50": {
+            "content": "     */\r",
+            "type": "end_comment"
+        },
+        "51": {
+            "content": "    public void checkSpeed() {{\r",
+            "type": "code_body"
+        },
+        "52": {
+            "content": "        if (this.currentSpeed == this.maxSpeed) {{\r",
+            "type": "code_body"
+        },
+        "53": {
+            "content": "            System.out.println(\"The car is at max speed\");\r",
+            "type": "code_body"
+        },
+        "54": {
+            "content": "        }} else {{\r",
+            "type": "code_body"
+        },
+        "55": {
+            "content": "            System.out.println(\"The car is not at max speed\");\r",
+            "type": "code_body"
+        },
+        "56": {
+            "content": "        }}\r",
+            "type": "code_body"
+        },
+        "57": {
+            "content": "    }}\r",
+            "type": "code_body"
+        },
+        "58": {
+            "content": "\r",
+            "type": ""
+        },
+        "59": {
+            "content": "    public static void main(String[] args) {{\r",
+            "type": "code_body"
+        },
+        "60": {
+            "content": "        \r",
+            "type": ""
+        },
+        "61": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "62": {
+            "content": "         * logical_step_4: Create an object of the Car class and set the current speed and max speed.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "63": {
+            "content": "         * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "64": {
+            "content": "         * question_2: What is the purpose of car object?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "65": {
+            "content": "         * question_3: What is the value of currentSpeed and maxSpeed after setting them?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "66": {
+            "content": "         * gap_fill_question_1: The value of currentSpeed is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "67": {
+            "content": "         * gap_fill_question_2: The value of maxSpeed is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "68": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "69": {
+            "content": "        Car car = new Car();\r",
+            "type": "code_body"
+        },
+        "70": {
+            "content": "        \r",
+            "type": ""
+        },
+        "71": {
+            "content": "        car.setCurrentSpeed(60);\r",
+            "type": "code_body"
+        },
+        "72": {
+            "content": "        car.setMaxSpeed(100);\r",
+            "type": "code_body"
+        },
+        "73": {
+            "content": "\r",
+            "type": ""
+        },
+        "74": {
+            "content": "        /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 0
+            }
+        },
+        "75": {
+            "content": "         * logical_step_5: Call the checkSpeed() method to check if the car is at max speed or not.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "76": {
+            "content": "         * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "77": {
+            "content": "         * question_2: What is the output when the current speed is equal to the max speed?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "78": {
+            "content": "         * gap_fill_question_1: The output of the program is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "79": {
+            "content": "         */\r",
+            "type": "end_comment"
+        },
+        "80": {
+            "content": "        car.checkSpeed();\r",
+            "type": "code_body"
+        },
+        "81": {
+            "content": "\r",
+            "type": ""
+        },
+        "82": {
+            "content": "    }}\r",
+            "type": "code_body"
+        },
+        "83": {
+            "content": "}}\r",
+            "type": "code_body"
+        },
+        "84": {
+            "content": "",
+            "type": ""
+        }
+    }
+}

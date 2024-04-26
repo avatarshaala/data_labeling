@@ -1,0 +1,180 @@
+{
+    "original_file_name": "ai_CountDown.java",
+    "json_file_name": "user1.04-04-2024.ai_CountDown.json",
+    "user": "user1",
+    "date": "04-04-2024",
+    "other_info": "",
+    "lines": {
+        "1": {
+            "content": "/**\r",
+            "type": "begin_header"
+        },
+        "2": {
+            "content": " * author: Dipesh Gautam\r",
+            "type": "header_comment"
+        },
+        "3": {
+            "content": " * topic: For Loops\r",
+            "type": "header_comment"
+        },
+        "4": {
+            "content": " * subTopic: getting familiar with for-loop in java\r",
+            "type": "header_comment"
+        },
+        "5": {
+            "content": " * goalDescription: this is a program for a countdown display for launching a rocket in space which must\r",
+            "type": "header_comment"
+        },
+        "6": {
+            "content": " * show numbers in decreasing order from 10 to 1.\r",
+            "type": "header_comment"
+        },
+        "7": {
+            "content": " * source:  N/A\r",
+            "type": "header_comment"
+        },
+        "8": {
+            "content": " * output: counter = 10\r",
+            "type": "header_comment"
+        },
+        "9": {
+            "content": " counter = 9\r",
+            "type": "header_comment"
+        },
+        "10": {
+            "content": " counter = 8\r",
+            "type": "header_comment"
+        },
+        "11": {
+            "content": " counter = 7\r",
+            "type": "header_comment"
+        },
+        "12": {
+            "content": " counter = 6\r",
+            "type": "header_comment"
+        },
+        "13": {
+            "content": " counter = 5\r",
+            "type": "header_comment"
+        },
+        "14": {
+            "content": " counter = 4\r",
+            "type": "header_comment"
+        },
+        "15": {
+            "content": " counter = 3\r",
+            "type": "header_comment"
+        },
+        "16": {
+            "content": " counter = 2\r",
+            "type": "header_comment"
+        },
+        "17": {
+            "content": " counter = 1\r",
+            "type": "header_comment"
+        },
+        "18": {
+            "content": "*/\r",
+            "type": "end_header"
+        },
+        "19": {
+            "content": "\r",
+            "type": ""
+        },
+        "20": {
+            "content": "public class CountDown {{\r",
+            "type": "code_body"
+        },
+        "21": {
+            "content": "\tpublic static void main(String[] args) {{\r",
+            "type": "code_body"
+        },
+        "22": {
+            "content": "\t\t\r",
+            "type": ""
+        },
+        "23": {
+            "content": "\r",
+            "type": ""
+        },
+        "24": {
+            "content": "\t\t/**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 0
+            }
+        },
+        "25": {
+            "content": "\t\t * logical_step_1: Initialize the counter variable to 10\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "26": {
+            "content": "\t\t * question_1: What is the purpose of variable counter?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "27": {
+            "content": "\t\t * question_2: What is the initial value of counter?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "28": {
+            "content": "\t\t * gap_fill_question_1: The variable counter is initialized to 10 because ___ ?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "29": {
+            "content": "\t\t * gap_fill_question_2: the data type of variable counter is ___ ?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "30": {
+            "content": "\t\t * followup_question_1: What will be the output if counter is initialized to 5?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "31": {
+            "content": "\t\t */\r",
+            "type": "end_comment"
+        },
+        "32": {
+            "content": "\t\tfor(int counter=10;counter>0;counter--){{\r",
+            "type": "code_body"
+        },
+        "33": {
+            "content": "\t\t\tSystem.out.println(\"counter = \" + counter);\r",
+            "type": "code_body"
+        },
+        "34": {
+            "content": "\t\t}}\r",
+            "type": "code_body"
+        },
+        "35": {
+            "content": "\t}}\r",
+            "type": "code_body"
+        },
+        "36": {
+            "content": "}}",
+            "type": "code_body"
+        }
+    }
+}

@@ -77,7 +77,7 @@ class LabelingPage:
                     st.write(f"{st.session_state.working_file} saved")
                 with c2:
                     st.markdown(
-                        f"{st.session_state.date_today}<br>{st.session_state.user}<br>{st.session_state.working_file}",
+                        f"Working File: <b>{st.session_state.working_file}</b>",
                         unsafe_allow_html=True)
 
         with top_col2:

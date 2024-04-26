@@ -19,12 +19,28 @@ from labeling_page import LabelingPage
 #     for value in checkbox_values:
 #         label_db.save_annotation(*value)
 
-def authenticate_user(username, password):
+def authenticate_user(users_pwords, username, password):
     # Replace this with your actual authentication mechanism
-    users_pwords = {'admin':'admin','user1':'user1','user2':'user2','user3':'user3', 'user4':'user4', 'user5':'user5'}
+
     return username in users_pwords and password == users_pwords[username]
 
 def main():
+
+    if "all_users_passwords" not in st.session_state:
+        st.session_state.all_users_passwords = {
+            'admin': 'admin',
+            'dipesh': 'dipesh',
+            'user1': 'user1',
+            'user2': 'user2',
+            'user3': 'user3',
+            'user4': 'user4',
+            'user5': 'user5',
+            'user6': 'user6',
+            'user7': 'user7',
+            'user8': 'user8',
+            'user9': 'user9',
+            'user10': 'user10'
+        }
 
     if 'authenticated' not in st.session_state:
         st.session_state.authenticated = None
@@ -34,7 +50,8 @@ def main():
         username = st.text_input("Username")
         password = st.text_input("Password", type="password")
         if username and password:
-            st.session_state.authenticated = authenticate_user(username, password)
+            usrs_pwds = st.session_state.all_users_passwords
+            st.session_state.authenticated = authenticate_user(usrs_pwds, username, password)
             if st.session_state.authenticated:
                 st.session_state.user = username
                 st.rerun()

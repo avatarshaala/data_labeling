@@ -1,0 +1,385 @@
+{
+    "original_file_name": "ai_Groceries.java",
+    "json_file_name": "user1.04-04-2024.ai_Groceries.json",
+    "user": "user1",
+    "date": "04-04-2024",
+    "other_info": "",
+    "lines": {
+        "1": {
+            "content": "/**\r",
+            "type": "begin_header"
+        },
+        "2": {
+            "content": " * author: Dipesh Gautam\r",
+            "type": "header_comment"
+        },
+        "3": {
+            "content": " * topics: Methods\r",
+            "type": "header_comment"
+        },
+        "4": {
+            "content": " * subtopics: static methods, instance methods\r",
+            "type": "header_comment"
+        },
+        "5": {
+            "content": " * goalDescription: This program calls a static and instance method from Groceries and prints out what is needed for getting groceries in different ways\r",
+            "type": "header_comment"
+        },
+        "6": {
+            "content": " * input: N/A\r",
+            "type": "header_comment"
+        },
+        "7": {
+            "content": " * output: There are numerous online sites and third parties you can use where you just need to order and pay for the groceries online and will show up at your door step without needing to head out for it.\r",
+            "type": "header_comment"
+        },
+        "8": {
+            "content": " * The other way around is by your car or a Cab or Uber and picking up the groceries by yourself or the other easy way is you can schedule a pickup for that. So, the extra thing here is you need to get to the store for the groceries.\r",
+            "type": "header_comment"
+        },
+        "9": {
+            "content": "*/\r",
+            "type": "end_header"
+        },
+        "10": {
+            "content": "\r",
+            "type": ""
+        },
+        "11": {
+            "content": "public class Groceries {{\r",
+            "type": "code_body"
+        },
+        "12": {
+            "content": "\r",
+            "type": ""
+        },
+        "13": {
+            "content": "\t\r",
+            "type": ""
+        },
+        "14": {
+            "content": "\t\r",
+            "type": ""
+        },
+        "15": {
+            "content": "\tstatic void onlineGroceries() {{\r",
+            "type": "code_body"
+        },
+        "16": {
+            "content": "\t\t/**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "17": {
+            "content": "\t\t * logical_step_1: Print the message for getting groceries online\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "18": {
+            "content": "\t\t * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "19": {
+            "content": "\t\t * question_2: What is the purpose of static keyword before the method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "20": {
+            "content": "\t\t * question_3: What is the output of the method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "21": {
+            "content": "\t\t * gap_fill_question_1: The method onlineGroceries is ___ method.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "22": {
+            "content": "\t\t * hint_1: What is the difference between static and instance methods?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "23": {
+            "content": "\t\t */\r",
+            "type": "end_comment"
+        },
+        "24": {
+            "content": "\t\tSystem.out.println(\"There are numerous online sites and third parties you can use where you just need to order and pay for the groceries online and will show up at your door step without needing to head out for it.\");\r",
+            "type": "code_body"
+        },
+        "25": {
+            "content": "\t}}\r",
+            "type": "code_body"
+        },
+        "26": {
+            "content": "\t\r",
+            "type": ""
+        },
+        "27": {
+            "content": "\t\t\r",
+            "type": ""
+        },
+        "28": {
+            "content": "\tpublic void otherGroceries() {{\r",
+            "type": "code_body"
+        },
+        "29": {
+            "content": "\t\t/**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 1
+            }
+        },
+        "30": {
+            "content": "\t\t * logical_step_2: Print the message for getting groceries by other means\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "31": {
+            "content": "\t\t * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "32": {
+            "content": "\t\t * question_2: What is the purpose of public keyword before the method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "33": {
+            "content": "\t\t * question_3: What is the output of the method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "34": {
+            "content": "\t\t * gap_fill_question_1: The method otherGroceries is ___ method.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "35": {
+            "content": "\t\t * hint_1: What is the difference between static and instance methods?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "36": {
+            "content": "\t\t */\r",
+            "type": "end_comment"
+        },
+        "37": {
+            "content": "\t\tSystem.out.println(\"The other way around is by your car or a Cab or Uber and picking up the groceries by yourself or the other easy way is you can schedule a pickup for that. So, the extra thing here is you need to get to the store for the groceries.\");\r",
+            "type": "code_body"
+        },
+        "38": {
+            "content": "\t}}\r",
+            "type": "code_body"
+        },
+        "39": {
+            "content": "\t\r",
+            "type": ""
+        },
+        "40": {
+            "content": "\tpublic static void main(String[] args) {{\r",
+            "type": "code_body"
+        },
+        "41": {
+            "content": "\t\t\r",
+            "type": ""
+        },
+        "42": {
+            "content": "\t\t\r",
+            "type": ""
+        },
+        "43": {
+            "content": "\t\t/**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 0
+            }
+        },
+        "44": {
+            "content": "\t\t * logical_step_3: Call the static method onlineGroceries\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "45": {
+            "content": "\t\t * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "46": {
+            "content": "\t\t * question_2: What is the purpose of calling onlineGroceries() method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "47": {
+            "content": "\t\t * question_3: What is the output of the method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "48": {
+            "content": "\t\t * gap_fill_question_1: The method onlineGroceries is ___ method.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "49": {
+            "content": "\t\t * hint_1: What is the difference between static and instance methods?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 0
+            }
+        },
+        "50": {
+            "content": "\t\t */\r",
+            "type": "end_comment"
+        },
+        "51": {
+            "content": "\t\tonlineGroceries();\r",
+            "type": "code_body"
+        },
+        "52": {
+            "content": "\r",
+            "type": ""
+        },
+        "53": {
+            "content": "\t\r",
+            "type": ""
+        },
+        "54": {
+            "content": "\t    Groceries alternateGroceries = new Groceries(); \r",
+            "type": "code_body"
+        },
+        "55": {
+            "content": "\r",
+            "type": ""
+        },
+        "56": {
+            "content": "\t    \r",
+            "type": ""
+        },
+        "57": {
+            "content": "\t    /**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 0
+            }
+        },
+        "58": {
+            "content": "\t     * logical_step_4: Call the instance method otherGroceries using the object alternateGroceries\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "59": {
+            "content": "\t     * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "60": {
+            "content": "\t     * question_2: What is the purpose of calling otherGroceries() method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "61": {
+            "content": "\t     * question_3: What is the output of the method?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 1,
+                "quality": 1
+            }
+        },
+        "62": {
+            "content": "\t     * gap_fill_question_1: The method otherGroceries is ___ method.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "63": {
+            "content": "\t     * hint_1: What is the difference between static and instance methods?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "64": {
+            "content": "\t     */\r",
+            "type": "end_comment"
+        },
+        "65": {
+            "content": "\t    alternateGroceries.otherGroceries(); \r",
+            "type": "code_body"
+        },
+        "66": {
+            "content": "\t}}\r",
+            "type": "code_body"
+        },
+        "67": {
+            "content": "}}",
+            "type": "code_body"
+        }
+    }
+}

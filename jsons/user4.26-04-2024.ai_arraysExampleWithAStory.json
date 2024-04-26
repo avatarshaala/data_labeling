@@ -1,0 +1,413 @@
+{
+    "original_file_name": "ai_arraysExampleWithAStory.java",
+    "json_file_name": "user4.26-04-2024.ai_arraysExampleWithAStory.json",
+    "user": "user4",
+    "date": "26-04-2024",
+    "other_info": "",
+    "lines": {
+        "1": {
+            "content": "/**\r",
+            "type": "begin_header"
+        },
+        "2": {
+            "content": " * author: Dipesh Gautam\r",
+            "type": "header_comment"
+        },
+        "3": {
+            "content": " * topic: Arrays\r",
+            "type": "header_comment"
+        },
+        "4": {
+            "content": " * subTopic: Creating and accessing elements of an array\r",
+            "type": "header_comment"
+        },
+        "5": {
+            "content": " * goalDescription: This program generates the numbers from 0 to 10 which represent the numbers to be printed on the t-shirts of a soccer team which consists of 11 players. The goalkeeper prefers number 0 which is why the numbers will be from 0 to 10 instead of 1 to 11.\r",
+            "type": "header_comment"
+        },
+        "6": {
+            "content": " * The numbers are stored together in a collection of values called an array. This program demonstrates how to create an array, how to assign values to the elements of the array and how to print the values of the array.\r",
+            "type": "header_comment"
+        },
+        "7": {
+            "content": " * source: N/A\r",
+            "type": "header_comment"
+        },
+        "8": {
+            "content": " * input: N/A\r",
+            "type": "header_comment"
+        },
+        "9": {
+            "content": " * output: 0\r",
+            "type": "header_comment"
+        },
+        "10": {
+            "content": " \t 1\r",
+            "type": "header_comment"
+        },
+        "11": {
+            "content": "\t 2\r",
+            "type": "header_comment"
+        },
+        "12": {
+            "content": "\t 3\r",
+            "type": "header_comment"
+        },
+        "13": {
+            "content": "\t 4\r",
+            "type": "header_comment"
+        },
+        "14": {
+            "content": "\t 5\r",
+            "type": "header_comment"
+        },
+        "15": {
+            "content": "\t 6\r",
+            "type": "header_comment"
+        },
+        "16": {
+            "content": "\t 7\r",
+            "type": "header_comment"
+        },
+        "17": {
+            "content": "\t 8\r",
+            "type": "header_comment"
+        },
+        "18": {
+            "content": "\t 9\r",
+            "type": "header_comment"
+        },
+        "19": {
+            "content": "\t 10\r",
+            "type": "header_comment"
+        },
+        "20": {
+            "content": "*/\r",
+            "type": "end_header"
+        },
+        "21": {
+            "content": "\r",
+            "type": ""
+        },
+        "22": {
+            "content": "public class arraysExampleWithAStory{{\r",
+            "type": "code_body"
+        },
+        "23": {
+            "content": "\r",
+            "type": ""
+        },
+        "24": {
+            "content": "\tpublic static void main(String[] args) {{\r",
+            "type": "code_body"
+        },
+        "25": {
+            "content": "\r",
+            "type": ""
+        },
+        "26": {
+            "content": "\t\t/**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 0
+            }
+        },
+        "27": {
+            "content": "\t\t * logical_step_1: Declare a variable to store the size of the array\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "28": {
+            "content": "\t\t * question_1: What is the purpose of the variable size?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "29": {
+            "content": "\t\t * question_2: What is the value of the variable size?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "30": {
+            "content": "\t\t * gap_fill_question_1: The value of size is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "31": {
+            "content": "\t\t * hint_1: The size of the array is equal to the number of players in the soccer team.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "32": {
+            "content": "\t\t */\r",
+            "type": "end_comment"
+        },
+        "33": {
+            "content": "\t\tint size = 11;\r",
+            "type": "code_body"
+        },
+        "34": {
+            "content": "\r",
+            "type": ""
+        },
+        "35": {
+            "content": "\t\t/**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 0
+            }
+        },
+        "36": {
+            "content": "\t\t * logical_step_2: Create an array to store the numbers for the t-shirts\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "37": {
+            "content": "\t\t * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "38": {
+            "content": "\t\t * question_2: What is the size of the array myNumber?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "39": {
+            "content": "\t\t * gap_fill_question_1: The size of the array myNumber is ___.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "40": {
+            "content": "\t\t * question_3: What is the data type of the elements in the array myNumber?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "41": {
+            "content": "\t\t * hint_1: The elements in the array myNumber are integers.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "42": {
+            "content": "\t\t */\r",
+            "type": "end_comment"
+        },
+        "43": {
+            "content": "\t\tint[] myNumber = new int[size]; \r",
+            "type": "code_body"
+        },
+        "44": {
+            "content": "\r",
+            "type": ""
+        },
+        "45": {
+            "content": "\t\t/**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 0
+            }
+        },
+        "46": {
+            "content": "\t\t * logical_step_3: Assign values to the elements of the array\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "47": {
+            "content": "\t\t * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "48": {
+            "content": "\t\t * question_2: How many times does the loop run?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "49": {
+            "content": "\t\t * gap_fill_question_1: The loop runs ___ times.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "50": {
+            "content": "\t\t * question_3: What is the value of i in the first iteration of the loop?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "51": {
+            "content": "\t\t * question_4: What is the value of myNumber[0] after the first iteration of the loop?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "52": {
+            "content": "\t\t * followup_question_1: What is the value of myNumber[10] after the loop completes?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "53": {
+            "content": "\t\t */\r",
+            "type": "end_comment"
+        },
+        "54": {
+            "content": "\t\tfor(int i = 0; i < myNumber.length; i++) {{ \r",
+            "type": "code_body"
+        },
+        "55": {
+            "content": "\t\t\t\r",
+            "type": ""
+        },
+        "56": {
+            "content": "\t\t\tmyNumber[i] = i; \r",
+            "type": "code_body"
+        },
+        "57": {
+            "content": "\t\t}}\r",
+            "type": "code_body"
+        },
+        "58": {
+            "content": "\r",
+            "type": ""
+        },
+        "59": {
+            "content": "\t\t/**\r",
+            "type": "begin_comment",
+            "labels": {
+                "sufficient": 0
+            }
+        },
+        "60": {
+            "content": "\t\t * logical_step_4: Print the values of the array\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "61": {
+            "content": "\t\t * question_1: What does the following code block do?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "62": {
+            "content": "\t\t * question_2: How many times does the loop run?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "63": {
+            "content": "\t\t * gap_fill_question_1: The loop runs ___ times.\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "64": {
+            "content": "\t\t * question_3: What is the value of i in the first iteration of the loop?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "65": {
+            "content": "\t\t * question_4: What is the value of myNumber[0] after the first iteration of the loop?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "66": {
+            "content": "\t\t * followup_question_1: What is the value of myNumber[10] after the loop completes?\r",
+            "type": "comment",
+            "labels": {
+                "relevant": 0,
+                "quality": 1
+            }
+        },
+        "67": {
+            "content": "\t\t */\r",
+            "type": "end_comment"
+        },
+        "68": {
+            "content": "\t\tfor(int i = 0; i < myNumber.length; i++) {{ \r",
+            "type": "code_body"
+        },
+        "69": {
+            "content": "\t\t\t\r",
+            "type": ""
+        },
+        "70": {
+            "content": "\t\t\tSystem.out.println(myNumber[i]); \r",
+            "type": "code_body"
+        },
+        "71": {
+            "content": "\t\t}}\r",
+            "type": "code_body"
+        },
+        "72": {
+            "content": "\t}}\r",
+            "type": "code_body"
+        },
+        "73": {
+            "content": "}}",
+            "type": "code_body"
+        }
+    }
+}
