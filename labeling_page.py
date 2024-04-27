@@ -4,6 +4,7 @@ from labeling_libs.annotator_ui_component import ClickableGrid
 # from streamlit_float import *
 from streamlit_modal import Modal
 import pandas as pd
+import json
 class LabelingPage:
 
     @staticmethod
@@ -16,6 +17,7 @@ class LabelingPage:
         user = st.session_state.user
         date = st.session_state.date_today
         JavaToJSON.save_data_to_json(data, json_file, json_dir, user, date, create_new=create_new)
+        st.rerun()
 
 
     # @staticmethod
@@ -99,7 +101,7 @@ class LabelingPage:
                     # Allows to download annotated file
                     st.download_button(
                         label="Download file",
-                        data=st.session_state.working_labeling_data,
+                        data=json.dumps(st.session_state.working_labeling_data).encode('utf-8'),
                         file_name=st.session_state.working_file
                     )
 
