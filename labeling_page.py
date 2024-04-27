@@ -261,4 +261,4 @@ class LabelingPage:
             # LabelingPage.__create_labeling_page(st)
             LabelingPage.__create_labeling_page_df(st)
         else:
-            st.write("Chose existing file or upload a new file to label")
+            st.write("Select an existing file or upload a new file to label")
