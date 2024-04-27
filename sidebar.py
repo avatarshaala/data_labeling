@@ -1,5 +1,6 @@
 import os
 import os.path
+import zipfile
 from util.filename_formatter import dotjava_to_dotjson
 # from labeling_db import LabelDB
 
@@ -58,6 +59,12 @@ class Sidebar:
         )
 
         return json_files, users, dates
+
+    @staticmethod
+
+    # def __download_annotated_files(st, files):
+    #
+    #     json_dir = st.session_state.json_dir
 
     @staticmethod
     def __create_sidebar(st):
@@ -164,6 +171,14 @@ class Sidebar:
         st.write(f"User Option: {user_option}")
         st.write(f"Date Option: {date_option}")
         st.write(f"File option: {file_option}")
+
+        st.divider()
+
+        # st.download_button(label="Download annotated files", data )
+        # if filtered_files:
+
+
+
 
 
     @staticmethod

@@ -17,6 +17,21 @@ class LabelingPage:
         date = st.session_state.date_today
         JavaToJSON.save_data_to_json(data, json_file, json_dir, user, date, create_new=create_new)
 
+
+    @staticmethod
+    def __download_annotated_file(st):
+
+
+        path = f"{st.session_state.json_dir}/{st.session_state.working_file}"
+        # st.write(path)
+        with open(path, "rb") as file:
+            file_content = file.read()
+
+        return file_content
+
+
+        pass
+
     @staticmethod
     def __separate_blocks(st, data):
 
@@ -72,13 +87,24 @@ class LabelingPage:
             c1, c2 = st.columns(2)
             with c1:
                 save_clicked = st.button("Save Annotation")
+                # download_clicked = st.button("Download Annotated File")
                 if save_clicked:
                     LabelingPage.__save_annotation(st, create_new=None)
                     st.write(f"{st.session_state.working_file} saved")
+
+                # st.write(st.session_state.working_file)
+
                 with c2:
                     st.markdown(
                         f"Working File: <b>{st.session_state.working_file}</b>",
                         unsafe_allow_html=True)
+
+                    # Allows to download annotated file
+                    st.download_button(
+                        label="Download file",
+                        data=LabelingPage.__download_annotated_file(st),
+                        file_name=st.session_state.working_file
+                    )
 
         with top_col2:
             st.write("Click to see data in JSON")
